@@ -8,7 +8,6 @@ class Dashboard extends Component {
         return (
             <div>
                 <ContentHeader title='Dashboard' small='Versão 1.0' />
-                
                 <Content>
                     Dashboard
                 </Content>
