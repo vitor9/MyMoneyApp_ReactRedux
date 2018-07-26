@@ -13,10 +13,10 @@ import { selectTab, showTabs } from '../common/tab/tabActions'
 
 class BillingCycle extends Component {
 
-    // O componente vai montar o componente tabList
     componentWillMount() {
         this.props.selectTab('tabList')
-        this.props.showTabs('tabList', 'tabCreate')
+        // Liste o ID das tabelas que deseja que apareça no header.
+        this.props.showTabs('tabList', 'tabCreate', 'tabUpdate', 'tabDelete')
     }
 
     render() {
