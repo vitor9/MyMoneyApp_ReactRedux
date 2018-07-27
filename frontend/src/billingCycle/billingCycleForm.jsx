@@ -4,8 +4,7 @@ import { reduxForm, Field } from 'redux-form'
 class BillingCycleForm extends Component {
     render() {
         const { handleSubmit } = this.props
-        console.log(this.props);
-        
+         
         return (
             <form role='form' onSubmit={ handleSubmit }>
                 <div className='box-body'>
