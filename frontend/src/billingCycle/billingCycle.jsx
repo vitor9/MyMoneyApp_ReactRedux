@@ -18,9 +18,9 @@ import Form from './billingCycleForm'
 class BillingCycle extends Component {
 
     componentWillMount() {
-        this.props.selectTab('tabCreate')
+        this.props.selectTab('tabList')
         // Liste o ID das tabelas que deseja que apareça no header.
-        this.props.showTabs('tabList', 'tabCreate', 'tabUpdate', 'tabDelete')
+        this.props.showTabs('tabList', 'tabCreate')
     }
 
     render() {
